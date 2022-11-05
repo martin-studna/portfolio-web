@@ -1,0 +1,28 @@
+.description {
+  margin-bottom: 2rem;
+}
+
+.subDescription {
+
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+
+  margin-left: 0.8rem;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.3rem;
+}
+
+.links img {
+  width: 35px;
+  height: 35px;
+}
+
+.links img:hover {
+  color: black
+}
