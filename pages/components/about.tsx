@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <div>
-      <h1 className={styles.description}><span style={{color: "#D72323"}}>AI</span> Engineer with a passion for problem solving & innovations</h1>
+      <h1 className={styles.description}><span style={{color: "#D72323"}}>AI</span> Engineer turning ideas into innovations</h1>
       <div className={styles.subDescription}>
         <span style={{fontWeight: "bold"}}>Machine Learning, Computer Vision and Natural Language Processing</span>,
         4 years of professional experience in Software Engineering,

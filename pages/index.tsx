@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Introduction from './components/introduction'
 import About from './components/about'
 import NavigationBar from './components/navigationbar'
+import Projects from './components/projects'
+import Experience from './components/experience'
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
       <main className={styles.main}>
         <Introduction/>
         <About/>
+        <Projects/>
+        <Experience/>
       </main>
 
       <footer className={styles.footer}>

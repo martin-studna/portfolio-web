@@ -1,11 +1,11 @@
 
 
 
-export default function Projects() {
+export default function Experience() {
 
     return (
         <div>
-            
+
         </div>
     )
 }

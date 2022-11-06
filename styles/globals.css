@@ -22,7 +22,7 @@ a {
 
 * {
   box-sizing: border-box;
-  
+  word-break: break-word;
 }
 
 .capitalize {
@@ -51,15 +51,19 @@ h1 {
 
 
 nav {
-  height: 4rem;
   width: 100%;
   background: white;
   color: black;
   top: 0%;
   left: 0;
-  position: absolute;
+
   list-style-type: none;
   z-index: 100000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
 }
 
 ul, li {list-style-type: none;
@@ -92,7 +96,7 @@ ul, li {list-style-type: none;
 
 
 .nav-links ul {
-  margin-right: 15rem;
+  margin-right: 30rem;
 }
 
 .nav-links li {
@@ -150,10 +154,10 @@ li.fade {
 }
 
 .line {
-  width: 2.2rem;
-  height: 0.2rem;
+  width: 2.8rem;
+  height: 0.3rem;
   background: black;
-  margin: 7px;
+  margin: 10px;
 
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -168,10 +172,10 @@ li.fade {
 
 .line.open:nth-child(1)  {
   
-  -webkit-transform: translateY(10px) rotate(135deg);
-  -moz-transform: translateY(10px) rotate(135deg);
-  -o-transform: translateY(10px) rotate(135deg);
-  transform: translateY(10px) rotate(135deg);
+  -webkit-transform: translateY(19px) rotate(135deg);
+  -moz-transform: translateY(19px) rotate(135deg);
+  -o-transform: translateY(19px) rotate(135deg);
+  transform: translateY(19px) rotate(135deg);
 
 }
 
@@ -189,47 +193,23 @@ li.fade {
 
 }
 
-
-
 .hamburger {
-  position: absolute;
   cursor: pointer;
-  
-  right: 3%;
-  top: 50%;
-  
   z-index: 5;
 }
 
-.navigation-title {
-  position: absolute;
-  left: 10%;
-  text-decoration: none;
-  top: 20%;
-  z-index: 5;
-  
-  font-weight: 500;
-  font-size: 1.8em;
-  color: black;
-}
-
-.navigation-title:hover {
-  color: #DA0037;
-}
-
-.navigation-title:active {
-  color: black !important;
-}
 
 @media (max-width: 768px) {
   
-  
+  nav {
+    padding: 0;
+  }
 
   .nav-links ul {
     
     margin-top: 6rem;
     margin-left: 0rem;
-    margin-right: 2rem;
+    margin-right: 6rem;
     align-self: center;
     justify-self: center;
     text-align: center;
@@ -237,14 +217,5 @@ li.fade {
 
   .nav-links li {
     margin: 4rem;
-  }
-
-
-  .hamburger {
-    right: 5%;
-  }
-
-  .navigation-title {
-    left: 5%;
   }
 }
