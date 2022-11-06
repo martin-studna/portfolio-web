@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Introduction from './components/introduction'
 import About from './components/about'
+import NavigationBar from './components/navigationbar'
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
       </Head>
+
+      <NavigationBar/>
 
       <main className={styles.main}>
         <Introduction/>
