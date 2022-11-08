@@ -1,0 +1,57 @@
+.cardContent {
+    margin: 1.5rem;
+    text-align: left;
+}
+
+.cardText {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.cardImage {
+    width: 50px;
+    height: 50px;
+}
+
+.cardHeaderTitle {
+    font-weight: bold;
+}
+
+.cardHeaderMain {
+    margin-left: 1rem;
+
+}
+
+.cardHeaderCompany {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.cardHeaderPlace {
+    margin-top: 0px;
+
+    color: gray;
+    font-size: 14px;
+}
+
+.cardHeaderDate {
+    margin-left: auto;
+    color: gray;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.cardLine {
+    border: 0.05rem solid rgba(0, 0, 0, 0.1);
+}

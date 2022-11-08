@@ -27,8 +27,8 @@ export default function Home() {
       <main className={styles.main}>
         <Introduction/>
         <About/>
-        <Projects/>
         <Experience/>
+        <Projects/>
       </main>
 
       <footer className={styles.footer}>
