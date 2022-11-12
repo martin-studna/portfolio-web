@@ -5,7 +5,7 @@ import styles from '../../styles/About.module.css'
 export default function About() {
 
   return (
-    <div>
+    <div id="about">
       <h1 className={styles.description}><span style={{color: "#D72323"}}>AI</span> Engineer turning ideas into innovations</h1>
       <div className={styles.subDescription}>
         <span style={{fontWeight: "bold"}}>Machine Learning, Computer Vision and Natural Language Processing</span>,
