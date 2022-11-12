@@ -4,7 +4,7 @@ import styles from "../../styles/Card.module.css";
 
 type CardProps = {
     company: string,
-    imageSrc: string,
+    imageSrc?: string,
     title: string,
     place: string,
     date: string,
