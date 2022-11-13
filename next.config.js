@@ -6,11 +6,6 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  experimental: {
-    fontLoaders: [
-      { loader: '@next/font/google', options: { subsets: ['latin'] } },
-    ],
-  },
 }
 
 module.exports = nextConfig

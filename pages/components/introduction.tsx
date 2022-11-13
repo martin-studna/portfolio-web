@@ -24,6 +24,8 @@ export default function Introduction() {
                 <span className="capitalize">CONTACT ME</span>
                 <br />
                 hello@martin-studna.com
+                <br />
+                +420 775 058 619
               </div>
               <h1 className={styles.title}>Martin Studna</h1>
 
