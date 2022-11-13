@@ -37,7 +37,7 @@ export default function About() {
             </a>
           </Link>
           <div style={{flexGrow: 1}}/>
-          <Link href="http://localhost:3000/CV.pdf" passHref legacyBehavior >
+          <Link href="https://martin-studna.com/CV.pdf" passHref legacyBehavior >
               <a target="_blank" style={{display: 'flex', flexDirection: 'row', alignItems: "center"}}>
                 <div className="capitalize" style={{}}>RESUME</div>
                 <Image src={require("../../assets/cv-material-logo.svg")} style={{marginLeft: "0.5rem"}} alt="cv-logo" ></Image>
