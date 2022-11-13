@@ -27,3 +27,9 @@
 .links img:hover {
   color: black
 }
+
+@media (max-width: 768px) {
+  .subDescription {
+    font-size: 2em;
+  }
+}

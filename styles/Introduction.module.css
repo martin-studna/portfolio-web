@@ -118,4 +118,8 @@
   .titles {
     text-align: center;
   }
+
+  .title {
+    margin-bottom: 0;
+  }
 }
