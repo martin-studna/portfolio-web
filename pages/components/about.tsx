@@ -16,14 +16,14 @@ export default function About() {
       </div>
         <div className="capitalize">FOLLOW ME</div>
         <div className={styles.links}>
-          <Link href="https://twitter.com/MartinStudna" passHref legacyBehavior>
-            <a target="_blank">
-              <Image src={require("../../assets/twitter-logo.svg")} alt="twitter-logo"></Image>
-            </a>
-          </Link>
           <Link href="https://linkedin.com/in/martin-studna" passHref legacyBehavior>
             <a target="_blank">
               <Image src={require("../../assets/linkedin-logo.svg")} alt="linkedin-logo" style={{ marginBottom: "0.4rem" }}></Image>
+            </a>
+          </Link>
+          <Link href="https://twitter.com/MartinStudna" passHref legacyBehavior>
+            <a target="_blank">
+              <Image src={require("../../assets/twitter-logo.svg")} alt="twitter-logo"></Image>
             </a>
           </Link>
           <Link href="https://medium.com/@martinstudna" passHref legacyBehavior>
@@ -37,7 +37,7 @@ export default function About() {
             </a>
           </Link>
           <div style={{flexGrow: 1}}/>
-          <Link href="http://localhost:3000/CV.pdf" passHref legacyBehavior >
+          <Link href="https://martin-studna.com/CV.pdf" passHref legacyBehavior >
               <a target="_blank" style={{display: 'flex', flexDirection: 'row', alignItems: "center"}}>
                 <div className="capitalize" style={{}}>RESUME</div>
                 <Image src={require("../../assets/cv-material-logo.svg")} style={{marginLeft: "0.5rem"}} alt="cv-logo" ></Image>
