@@ -23,7 +23,7 @@ export default function Introduction() {
               <div className={styles.subtitle}>
                 <span className="capitalize">CONTACT ME</span>
                 <br />
-                martin.studna2@gmail.com
+                hello@martin-studna.com
               </div>
               <h1 className={styles.title}>Martin Studna</h1>
 
