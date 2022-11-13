@@ -42,11 +42,12 @@ export default function Experience() {
                     <ul>
                         <li>- IBM Watson, IBM Discovery, NodeJs, VueJs</li>
                         <li>- Create backend or frontend application primarily for IBM Watson</li> 
-                        <li>- Projects:</li>
+                        <li>- Projects:
                         <ul>
                             <li>- Vodafone - Tobi chatbot </li>    
                             <li>- Government of the Czech republic and eRouška: Virtual assistant Anežka - chatbot giving relevant information about covid-19 crisis </li>
                         </ul> 
+                        </li>
                     </ul>
                 </Card>
             </div>

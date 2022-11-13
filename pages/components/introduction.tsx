@@ -32,7 +32,7 @@ export default function Introduction() {
           </div>
 
         </div>
-        <button className={styles.scrollDownButton} onClick={() => scroll()}>
+        <button className={styles.scrollDownButton} onClick={() => scroll()} aria-label="scroll-down">
           <div className={styles.buttonArrow}></div>
         </button>
       </div>

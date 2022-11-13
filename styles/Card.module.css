@@ -41,13 +41,13 @@
 .cardHeaderPlace {
     margin-top: 0px;
 
-    color: gray;
+    color: var(--gray);
     font-size: 14px;
 }
 
 .cardHeaderDate {
     margin-left: auto;
-    color: gray;
+    color: var(--gray);
     font-size: 14px;
     align-self: flex-start;
 }
