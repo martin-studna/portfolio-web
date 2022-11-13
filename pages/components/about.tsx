@@ -16,14 +16,14 @@ export default function About() {
       </div>
         <div className="capitalize">FOLLOW ME</div>
         <div className={styles.links}>
-          <Link href="https://twitter.com/MartinStudna" passHref legacyBehavior>
-            <a target="_blank">
-              <Image src={require("../../assets/twitter-logo.svg")} alt="twitter-logo"></Image>
-            </a>
-          </Link>
           <Link href="https://linkedin.com/in/martin-studna" passHref legacyBehavior>
             <a target="_blank">
               <Image src={require("../../assets/linkedin-logo.svg")} alt="linkedin-logo" style={{ marginBottom: "0.4rem" }}></Image>
+            </a>
+          </Link>
+          <Link href="https://twitter.com/MartinStudna" passHref legacyBehavior>
+            <a target="_blank">
+              <Image src={require("../../assets/twitter-logo.svg")} alt="twitter-logo"></Image>
             </a>
           </Link>
           <Link href="https://medium.com/@martinstudna" passHref legacyBehavior>
