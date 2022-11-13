@@ -28,7 +28,7 @@ export default function Introduction() {
               <h1 className={styles.title}>Martin Studna</h1>
 
             </div>
-            <Image className={styles.profileImage} src={require("../../assets/profile.jpeg")} alt="profile-image" />        
+            <Image className={styles.profileImage} src={require("../../assets/profile.jpeg")} alt="profile-image" priority={true} />        
           </div>
 
         </div>
