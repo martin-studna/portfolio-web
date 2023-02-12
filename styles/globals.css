@@ -236,14 +236,17 @@ li.fade {
     width: 100%;
   }
 
+  .nav-links.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   .nav-links ul {
     
-    margin-top: 6rem;
-    margin-left: 0rem;
-    margin-right: 6rem;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-links li {
