@@ -33,7 +33,7 @@ export default function NavigationBar() {
   return (
     <nav>
       <Link href="/" onClick={hideMenu}>
-        <Image style={{maxWidth: "140px",maxHeight: "140px"}} src={require("../../assets/spin-top.svg")} alt="navigation-bar-logo"></Image>
+        <Image style={{maxWidth: "140px",maxHeight: "140px"}} src={require("../../assets/logo_cube.png")} alt="navigation-bar-logo"></Image>
       </Link>
 
       <div
